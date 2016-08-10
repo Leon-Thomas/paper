@@ -78,6 +78,7 @@ int main(int argc, char *argv[])
             err_sys("execl");
     }
 
-    return 0;
+    //return 0;
+    exit(0);
 }
 
