@@ -2,7 +2,8 @@
  * 简单的分页程序：将指定文件的内容分页显示到标准输出上
  * 2016.07.12
  * Leon-Thomas
- * 备注：利用dup2和exec函数从定向子进程的标准输出*/
+ * 备注：利用dup2和exec函数从定向子进程的标准输出
+ */
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
